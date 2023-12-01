@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: purple;
+}
+
+#contenedor {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    width: auto;
+    padding-top: 30px;
+    background-color: white;
+    height: 130px;
+    position: sticky;
+    top: 0;
+}
+
+.advertising {
+    background-color: yellow;
+    text-align: center;
+}
+
+.isologo {
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section_h1 {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+h1 {
+    display: none;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 330px;
+    vertical-align: top;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 4px;
+    width: 150px;
+    display: inline-block;
+}
+
+nav ul li a {
+    margin-top: 15px;
+    text-decoration: none;
+    box-shadow: 1px 2px 1px;;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    color: purple;
+}
+
+nav ul li a:hover {
+    background-color: purple;
+    color: white;
+
+}
+
+
+.banner1, .banner2, .banner3, .banner4 {
+    width: auto;
+    height: 500px;
+}
+
+.banner1 {
+    background-image: url(../img/banner4.png);
+    background-size: cover;
+}
+
+.banner2 {
+    background-image: url(../img/banner3_.png);
+    background-size: cover;
+}
+
+.banner3 {
+    background-image: url(../img/benner1_.png);
+    background-size: cover;
+}
+
+.banner4 {
+    background-image: url(../img/banner2_.png);
+    background-size: cover;
+}
+
+.contenido {
+    width: auto;
+    min-height: 700px;
+}
+
+.columna {
+    width: 600px;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 500px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.text_tienda_especializada {
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.columna h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.columna h4 {
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+.tienda_especializada_img {
+    height: 150px;
+    margin-left: 120px;
+}
+
+
+.text_tienda_especializada p {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+    text-align: justify;
+}
+
+.beneficios_aerovika img {
+    width: 50px;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.beneficios_aerovika p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 470px;
+    text-align: justify;
+    margin-bottom: 30px;
+   
+}
+
+.promo2 {
+    width: 1200px;
+    padding-top: 50px;
+    height: 450px;
+    background-image: url(../img/trama_8.png);
+    background-size: cover;
+    position: relative;
+}
+
+.box_newin {
+    background-color: rgb(204, 51, 255);
+    border-radius: 30px;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: -1;
+}
+
+.box_newin h2 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 1.8rem;
+}
+
+.contenedor_ingresos {
+    margin-left: 200px;
+}
+
+.contenedor_promo2 {
+    width: 200px;
+    height: 350px;
+    background-color: rgb(247, 241, 241);
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0.5px 0.5px 2px;
+}
+
+.promo2 img {
+    width: 200px;
+}
+
+.merlina {
+    height: 250px;
+    background-image: url(../img/malla2.jpeg);
+    background-size: cover;
+}
+
+.merlina:hover {
+    background-image: url(../img/merlina_2.jpeg);
+    transition: all 0.5s ease-in;
+}
+
+.rapunzel {
+    height: 250px;
+    background-image: url(../img/malla1.jpg);
+    background-size: cover;
+}
+
+.rapunzel:hover {
+    background-image: url(../img/rapunzel_2.jpeg);
+    transition: all 0.5s ease-in;
+}
+
+
+.spider {
+    height: 250px;
+    background-image: url(../img/malla4.jpeg);
+    background-size: cover;
+}
+
+.spider:hover {
+    background-image: url(../img/spider_2.jpeg);
+    transition: all 0.5s ease-in;
+}
+
+
+.mulan {
+    height: 250px;
+    background-image: url(../img/malla3.jpeg);
+    background-size: cover;
+}
+
+.mulan:hover {
+    background-image: url(../img/mulan_2.jpeg);
+    transition: all 0.5s ease-in;
+}
+
+.contenedor_promo2 a {
+    text-decoration: none;
+}
+
+.promo2 h4 {
+    text-align: center;
+    color: purple;
+    padding-top: 20px;
+    
+}
+
+.promo2 p {
+    text-align: center;
+    color: pink;
+    font-style: oblique;
+}
+
+.en_construccion {
+    margin-top: 70px;
+    padding-bottom: 100px;
+    background-image: url(../img/renovacion.png);
+    background-size: cover;
+}
+
+
+.quienes_somos {
+    width: auto;
+    height:  550px;
+    margin-top: 100px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+    background-image: url(../img/fondo_vyb.png);
+    background-size: cover;
+}
+
+.p_quienes_somos{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    min-height: 200px;
+    text-align: justify;
+    padding-left: 30px;
+    margin-top: 70px;
+}
+
+.quienes_somos h2 {
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.quienes_somos p {
+    padding-bottom: 5px;
+    font-size: 1rem;
+}
+
+.quienes_somos img {
+    width: 450px;
+    border: 20px solid white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.testimonios {
+    height: 600px;
+    margin-top: 250px;
+    padding-left: 60px;
+    background-image: url(../img/trama_8.png);
+    background-size: cover;
+}
+
+
+.testimonios h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    margin-left: 400px;
+    background-image:   url(../img/clasificacion.png),
+                        url(../img/clasificacion.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px, 210px;
+}
+
+
+.pastilla {
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.pastilla img {
+    margin: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pastilla h3 {
+    text-align: center;
+}
+
+.pastilla h6 {
+    text-align: center;
+}
+
+.pastilla p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 0.75rem;
+}
+
+
+.contacto2 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.contacto2 p {
+    padding-top: 20px;
+}
+
+.datos {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+}
+.formulario {
+    border: 1px solid rgb(198, 148, 198);
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.msj {
+    height: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+
+}
+
+.formulario p {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(198, 148, 198);
+}
+
+.formulario p:hover {
+    color: white
+}
+
+
+.whatsapp {
+    position: sticky;
+    margin-bottom: 30px;
+    bottom: 30px;
+    text-align: right;
+}
+
+.whatsapp img {
+    width: 80px;
+}
+
+.whatsapp img:hover {
+    transform: scale(0.8);
+    transition: all 0.5s ease-in-out;
+}
+
+footer {
+    width: auto;
+    height: 80px;
+    background-color: white;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+footer h6 {
+    color: purple;
+}
+
+footer p {
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 2px;
+   
+}
+
+.web_design {
+    display: inline-block;
+}
+
+.logo_final {
+    height: 30px;
+    margin-left: 220px;
+    vertical-align: top;
+}
+.redes {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 320px;
+}
+
+.boton_redes {
+   width: 30px;
+   display: inline-block;
+   margin-left: 20px;
+}
+
+.boton_redes:hover {
+    transform: scale(1.5);
+    transition: all 0.2s ease-in;
+}
+
+.lista_redes {
+    display: inline-block;
+}
+
+.h2footer {
+    font-size: 12px;
+}
+
+
+
